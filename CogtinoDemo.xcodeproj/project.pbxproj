@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2741D0D498951FD0F8847403 /* Pods_CogtinoDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9F16F2714CF084E244689E /* Pods_CogtinoDemo.framework */; };
+		5DF25855261312CF008893EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF25854261312CF008893EA /* AppDelegate.swift */; };
+		5DF25857261312CF008893EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF25856261312CF008893EA /* SceneDelegate.swift */; };
+		5DF25859261312CF008893EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF25858261312CF008893EA /* ViewController.swift */; };
+		5DF2585C261312CF008893EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF2585A261312CF008893EA /* Main.storyboard */; };
+		5DF2585E261312D4008893EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DF2585D261312D4008893EA /* Assets.xcassets */; };
+		5DF25861261312D4008893EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF2585F261312D4008893EA /* LaunchScreen.storyboard */; };
+		5DF2587526147017008893EA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF2587426147017008893EA /* SignUpViewController.swift */; };
+		5DF258782614784A008893EA /* ConfirmSignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF258772614784A008893EA /* ConfirmSignUpVC.swift */; };
+		5DF2587B261577B8008893EA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF2587A261577B8008893EA /* HomeViewController.swift */; };
+		5DF2587E2615A24C008893EA /* ConfirmResetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF2587D2615A24C008893EA /* ConfirmResetPasswordVC.swift */; };
+		6F036CA4A7C34BF3AF97663F /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 29870E4E5F684650BC9840E5 /* amplifyconfiguration.json */; };
+		8E69583D56D44AC7AE9F39B6 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 28AD726206DD453BAB3BA37D /* awsconfiguration.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26785CCAE571BB8E53CE7A69 /* Pods-CogtinoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CogtinoDemo.debug.xcconfig"; path = "Target Support Files/Pods-CogtinoDemo/Pods-CogtinoDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		28AD726206DD453BAB3BA37D /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = awsconfiguration.json; sourceTree = "<group>"; };
+		29870E4E5F684650BC9840E5 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		5DF25851261312CF008893EA /* CogtinoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CogtinoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF25854261312CF008893EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DF25856261312CF008893EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5DF25858261312CF008893EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5DF2585B261312CF008893EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DF2585D261312D4008893EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DF25860261312D4008893EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DF25862261312D4008893EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DF2587426147017008893EA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5DF258772614784A008893EA /* ConfirmSignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmSignUpVC.swift; sourceTree = "<group>"; };
+		5DF2587A261577B8008893EA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5DF2587D2615A24C008893EA /* ConfirmResetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmResetPasswordVC.swift; sourceTree = "<group>"; };
+		A24AA8ECFDA25A1AEFAED110 /* Pods-CogtinoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CogtinoDemo.release.xcconfig"; path = "Target Support Files/Pods-CogtinoDemo/Pods-CogtinoDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EF9F16F2714CF084E244689E /* Pods_CogtinoDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CogtinoDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB63A41AFFD44AA7BAE1EDD0 /* amplifytools.xcconfig */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.xcconfig; path = amplifytools.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DF2584E261312CF008893EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2741D0D498951FD0F8847403 /* Pods_CogtinoDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0198C8175C8395E610DD68A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF9F16F2714CF084E244689E /* Pods_CogtinoDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		446A58A38AAE658BA9FD1544 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26785CCAE571BB8E53CE7A69 /* Pods-CogtinoDemo.debug.xcconfig */,
+				A24AA8ECFDA25A1AEFAED110 /* Pods-CogtinoDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5DF25848261312CF008893EA = {
+			isa = PBXGroup;
+			children = (
+				BF1678E87D63494AA498331F /* AmplifyConfig */,
+				5DF25853261312CF008893EA /* CogtinoDemo */,
+				5DF25852261312CF008893EA /* Products */,
+				446A58A38AAE658BA9FD1544 /* Pods */,
+				0198C8175C8395E610DD68A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5DF25852261312CF008893EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DF25851261312CF008893EA /* CogtinoDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DF25853261312CF008893EA /* CogtinoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5DF25854261312CF008893EA /* AppDelegate.swift */,
+				5DF25856261312CF008893EA /* SceneDelegate.swift */,
+				5DF25858261312CF008893EA /* ViewController.swift */,
+				5DF2587426147017008893EA /* SignUpViewController.swift */,
+				5DF258772614784A008893EA /* ConfirmSignUpVC.swift */,
+				5DF2587D2615A24C008893EA /* ConfirmResetPasswordVC.swift */,
+				5DF2585A261312CF008893EA /* Main.storyboard */,
+				5DF2587A261577B8008893EA /* HomeViewController.swift */,
+				5DF2585D261312D4008893EA /* Assets.xcassets */,
+				5DF2585F261312D4008893EA /* LaunchScreen.storyboard */,
+				5DF25862261312D4008893EA /* Info.plist */,
+			);
+			path = CogtinoDemo;
+			sourceTree = "<group>";
+		};
+		BF1678E87D63494AA498331F /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				FB63A41AFFD44AA7BAE1EDD0 /* amplifytools.xcconfig */,
+				29870E4E5F684650BC9840E5 /* amplifyconfiguration.json */,
+				28AD726206DD453BAB3BA37D /* awsconfiguration.json */,
+			);
+			name = AmplifyConfig;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DF25850261312CF008893EA /* CogtinoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DF25865261312D4008893EA /* Build configuration list for PBXNativeTarget "CogtinoDemo" */;
+			buildPhases = (
+				C7A97DD9AEE10FC19102625C /* [CP] Check Pods Manifest.lock */,
+				5DF2584D261312CF008893EA /* Sources */,
+				5DF2584E261312CF008893EA /* Frameworks */,
+				5DF2584F261312CF008893EA /* Resources */,
+				B1B1C5540241690ADFFD2FB6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CogtinoDemo;
+			productName = CogtinoDemo;
+			productReference = 5DF25851261312CF008893EA /* CogtinoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DF25849261312CF008893EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5DF25850261312CF008893EA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 5DF2584C261312CF008893EA /* Build configuration list for PBXProject "CogtinoDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DF25848261312CF008893EA;
+			productRefGroup = 5DF25852261312CF008893EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DF25850261312CF008893EA /* CogtinoDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DF2584F261312CF008893EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF25861261312D4008893EA /* LaunchScreen.storyboard in Resources */,
+				5DF2585E261312D4008893EA /* Assets.xcassets in Resources */,
+				5DF2585C261312CF008893EA /* Main.storyboard in Resources */,
+				6F036CA4A7C34BF3AF97663F /* amplifyconfiguration.json in Resources */,
+				8E69583D56D44AC7AE9F39B6 /* awsconfiguration.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B1B1C5540241690ADFFD2FB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CogtinoDemo/Pods-CogtinoDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CogtinoDemo/Pods-CogtinoDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CogtinoDemo/Pods-CogtinoDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7A97DD9AEE10FC19102625C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CogtinoDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DF2584D261312CF008893EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF25859261312CF008893EA /* ViewController.swift in Sources */,
+				5DF2587E2615A24C008893EA /* ConfirmResetPasswordVC.swift in Sources */,
+				5DF25855261312CF008893EA /* AppDelegate.swift in Sources */,
+				5DF2587526147017008893EA /* SignUpViewController.swift in Sources */,
+				5DF25857261312CF008893EA /* SceneDelegate.swift in Sources */,
+				5DF258782614784A008893EA /* ConfirmSignUpVC.swift in Sources */,
+				5DF2587B261577B8008893EA /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5DF2585A261312CF008893EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DF2585B261312CF008893EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DF2585F261312D4008893EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DF25860261312D4008893EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DF25863261312D4008893EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DF25864261312D4008893EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DF25866261312D4008893EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26785CCAE571BB8E53CE7A69 /* Pods-CogtinoDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CogtinoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pita.CogtinoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DF25867261312D4008893EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A24AA8ECFDA25A1AEFAED110 /* Pods-CogtinoDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CogtinoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pita.CogtinoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DF2584C261312CF008893EA /* Build configuration list for PBXProject "CogtinoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF25863261312D4008893EA /* Debug */,
+				5DF25864261312D4008893EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DF25865261312D4008893EA /* Build configuration list for PBXNativeTarget "CogtinoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF25866261312D4008893EA /* Debug */,
+				5DF25867261312D4008893EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DF25849261312CF008893EA /* Project object */;
+}

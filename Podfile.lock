@@ -1,0 +1,70 @@
+PODS:
+  - Amplify (1.7.0):
+    - Amplify/Default (= 1.7.0)
+  - Amplify/Default (1.7.0)
+  - AmplifyPlugins/AWSCognitoAuthPlugin (1.7.0):
+    - AWSAuthCore (~> 2.23.0)
+    - AWSCognitoIdentityProvider (~> 2.23.0)
+    - AWSCognitoIdentityProviderASF (~> 2.23.0)
+    - AWSCore (~> 2.23.0)
+    - AWSMobileClient (~> 2.23.0)
+    - AWSPluginsCore (= 1.7.0)
+  - AWSAuthCore (2.23.2):
+    - AWSCore (= 2.23.2)
+  - AWSCognitoIdentityProvider (2.23.2):
+    - AWSCognitoIdentityProviderASF (= 2.23.2)
+    - AWSCore (= 2.23.2)
+  - AWSCognitoIdentityProviderASF (2.23.2)
+  - AWSCore (2.23.2)
+  - AWSMobileClient (2.23.2):
+    - AWSAuthCore (= 2.23.2)
+    - AWSCognitoIdentityProvider (= 2.23.2)
+    - AWSCognitoIdentityProviderASF (= 2.23.2)
+    - AWSCore (= 2.23.2)
+  - AWSPluginsCore (1.7.0):
+    - Amplify (= 1.7.0)
+    - AWSCore (~> 2.23.0)
+  - FBSDKCoreKit (9.1.0):
+    - FBSDKCoreKit/Basics (= 9.1.0)
+    - FBSDKCoreKit/Core (= 9.1.0)
+  - FBSDKCoreKit/Basics (9.1.0)
+  - FBSDKCoreKit/Core (9.1.0):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (9.1.0):
+    - FBSDKLoginKit/Login (= 9.1.0)
+  - FBSDKLoginKit/Login (9.1.0):
+    - FBSDKCoreKit (~> 9.1.0)
+
+DEPENDENCIES:
+  - Amplify
+  - AmplifyPlugins/AWSCognitoAuthPlugin
+  - FBSDKLoginKit
+
+SPEC REPOS:
+  trunk:
+    - Amplify
+    - AmplifyPlugins
+    - AWSAuthCore
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSMobileClient
+    - AWSPluginsCore
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+
+SPEC CHECKSUMS:
+  Amplify: 4cdf0631faffa42a47dc24affa6d84c555ca2f6a
+  AmplifyPlugins: dcf678f54171ce6d6367b79d5149bda5f47d9f9e
+  AWSAuthCore: 59770d4c2c1b3dbb183b95d1867e3584b4816e54
+  AWSCognitoIdentityProvider: 5bd6988ea7c8f9ee43151e19bdd8e803558ad45f
+  AWSCognitoIdentityProviderASF: 30ccb19228b6e743805bf15a72278ca9f399bc21
+  AWSCore: 70f79e95ee30f8eefa7122391d76ace516778f22
+  AWSMobileClient: 54fd215e76e34a8edb3cb1199788a69543cebc95
+  AWSPluginsCore: d4593ef79107b15a02597705b63c9c915a946ee9
+  FBSDKCoreKit: a00fe2efd780c195a5e09201bf51c56106245b40
+  FBSDKLoginKit: d98498c598ec09de657385a9349a1f21119b7f86
+
+PODFILE CHECKSUM: ce06be9febde4b36dba0b49491c11c07a6c0593b
+
+COCOAPODS: 1.10.0

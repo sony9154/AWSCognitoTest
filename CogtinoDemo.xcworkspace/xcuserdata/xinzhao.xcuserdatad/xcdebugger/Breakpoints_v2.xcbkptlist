@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5C85EA54-4A16-428D-8888-AA76061B1325"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FEBE9D80-6EB6-402A-9964-45D72538D66F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CogtinoDemo/ConfirmSignUpVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "confirmSignUp(for:with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6AECCF7F-A785-4891-8FE2-8395CB3AFCB0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CogtinoDemo/ConfirmSignUpVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "confirmSignUp(for:with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "52BD0C80-4E28-4225-985E-A98AB84298E2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CogtinoDemo/SignUpViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "signUp(username:password:email:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "52BD0C80-4E28-4225-985E-A98AB84298E2 - 7565779395e7ffb7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Amplify.AuthSignUpResult, Amplify.AuthError&gt;) -&gt; () in CogtinoDemo.SignUpViewController.signUp(username: Swift.String, password: Swift.String, email: Swift.String) -&gt; ()"
+                  moduleName = "CogtinoDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xinzhao/Downloads/CogtinoDemo/CogtinoDemo/SignUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "302">
+               </Location>
+               <Location
+                  uuid = "52BD0C80-4E28-4225-985E-A98AB84298E2 - 7565779395e7ffb7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Amplify.AuthSignUpResult, Amplify.AuthError&gt;) -&gt; () in CogtinoDemo.SignUpViewController.signUp(username: Swift.String, password: Swift.String, email: Swift.String) -&gt; ()"
+                  moduleName = "CogtinoDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xinzhao/Downloads/CogtinoDemo/CogtinoDemo/SignUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "351">
+               </Location>
+               <Location
+                  uuid = "52BD0C80-4E28-4225-985E-A98AB84298E2 - 7565779395e7ffb7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Amplify.AuthSignUpResult, Amplify.AuthError&gt;) -&gt; () in CogtinoDemo.SignUpViewController.signUp(username: Swift.String, password: Swift.String, email: Swift.String) -&gt; ()"
+                  moduleName = "CogtinoDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xinzhao/Downloads/CogtinoDemo/CogtinoDemo/SignUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "1958">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6B7ED50-5AAC-4FAF-98E0-50EBBC32ECBB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CogtinoDemo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "facebookSignInWithWebUI()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E6B7ED50-5AAC-4FAF-98E0-50EBBC32ECBB - 967982519449f5ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CogtinoDemo.ViewController.facebookSignInWithWebUI() -&gt; ()"
+                  moduleName = "CogtinoDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xinzhao/Downloads/CogtinoDemo/CogtinoDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "115"
+                  endingLineNumber = "115"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "E6B7ED50-5AAC-4FAF-98E0-50EBBC32ECBB - 6e43eeae591ee466"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Amplify.AuthSignInResult, Amplify.AuthError&gt;) -&gt; () in CogtinoDemo.ViewController.facebookSignInWithWebUI() -&gt; ()"
+                  moduleName = "CogtinoDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xinzhao/Downloads/CogtinoDemo/CogtinoDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "117"
+                  endingLineNumber = "117"
+                  offsetFromSymbolStart = "90">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5580D9C3-D5BC-434B-BDF5-5D70DE39C124"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CogtinoDemo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "facebookSignInWithWebUI()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5580D9C3-D5BC-434B-BDF5-5D70DE39C124 - 6e43eeae591ee466"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Amplify.AuthSignInResult, Amplify.AuthError&gt;) -&gt; () in CogtinoDemo.ViewController.facebookSignInWithWebUI() -&gt; ()"
+                  moduleName = "CogtinoDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xinzhao/Downloads/CogtinoDemo/CogtinoDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "117"
+                  endingLineNumber = "117"
+                  offsetFromSymbolStart = "90">
+               </Location>
+               <Location
+                  uuid = "5580D9C3-D5BC-434B-BDF5-5D70DE39C124 - 6e43eeae591ee466"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Amplify.AuthSignInResult, Amplify.AuthError&gt;) -&gt; () in CogtinoDemo.ViewController.facebookSignInWithWebUI() -&gt; ()"
+                  moduleName = "CogtinoDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xinzhao/Downloads/CogtinoDemo/CogtinoDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "117"
+                  endingLineNumber = "117"
+                  offsetFromSymbolStart = "358">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00759E1C-8479-44C9-94FD-01B7ADAC3CBC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CogtinoDemo/SignUpViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "signUp(username:password:email:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4794E983-80FC-4407-8725-37D7A0E9B08A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CogtinoDemo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "signIn(username:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4794E983-80FC-4407-8725-37D7A0E9B08A - f5ffed0a026f11b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CogtinoDemo.ViewController.signIn(username: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "CogtinoDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xinzhao/Downloads/CogtinoDemo/CogtinoDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "61">
+               </Location>
+               <Location
+                  uuid = "4794E983-80FC-4407-8725-37D7A0E9B08A - d716e79ba54708df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Amplify.AuthSignInResult, Amplify.AuthError&gt;) -&gt; () in CogtinoDemo.ViewController.signIn(username: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "CogtinoDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xinzhao/Downloads/CogtinoDemo/CogtinoDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "212">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F4DC2A1D-16E5-4A0C-9438-84B54484521C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CogtinoDemo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "fetchCurrentAuthSession()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "98267821-0959-4991-B4F1-3C041907B6B1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CogtinoDemo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "signIn(username:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "98267821-0959-4991-B4F1-3C041907B6B1 - d716e79ba54708df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Amplify.AuthSignInResult, Amplify.AuthError&gt;) -&gt; () in CogtinoDemo.ViewController.signIn(username: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "CogtinoDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xinzhao/Downloads/CogtinoDemo/CogtinoDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "98267821-0959-4991-B4F1-3C041907B6B1 - d716e79ba54708df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Amplify.AuthSignInResult, Amplify.AuthError&gt;) -&gt; () in CogtinoDemo.ViewController.signIn(username: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "CogtinoDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xinzhao/Downloads/CogtinoDemo/CogtinoDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "261">
+               </Location>
+               <Location
+                  uuid = "98267821-0959-4991-B4F1-3C041907B6B1 - d716e79ba54708df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Amplify.AuthSignInResult, Amplify.AuthError&gt;) -&gt; () in CogtinoDemo.ViewController.signIn(username: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "CogtinoDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xinzhao/Downloads/CogtinoDemo/CogtinoDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "1168">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A6B5C166-F0F5-4AC6-B27D-953ED93B986D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CogtinoDemo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "signIn(username:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C608365F-B609-42C5-9806-B443C360FE41"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CogtinoDemo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "signIn(username:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "22383C89-1B8E-467E-9AA5-FF45E2E63A38"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CogtinoDemo/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "scene(_:openURLContexts:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE8404A8-78FE-4310-8D87-14F1B349CB49"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CogtinoDemo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "facebookSignInWithWebUI()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC973C8A-3D32-4A1A-9B53-18206E34847C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CogtinoDemo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
+            landmarkName = "fetchCurrentAuthSession()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "09B622AE-365D-4FC0-B1F8-DA550FDC7AE3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CogtinoDemo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "fetchCurrentAuthSession()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
